@@ -1,0 +1,32 @@
+body{
+    margin: 5px;
+    padding: 5px;
+}
+
+.chat-header{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+button {
+    margin-top: 15px;
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+.inputButton {
+    margin-left: 47%;
+
+}
+
+button:hover { background: rgba(255,255,255,.2); }
+button:active { background: white; }
